@@ -1,0 +1,261 @@
+
+/*insert css*/
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(212, 202, 205);
+  }
+  h1{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0e9e9;
+    display: block;
+  }
+
+  .img1{
+    margin-left: 55px;
+  }
+  .aa{
+    margin-left: 18px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(29, 26, 26);
+    overflow-x: hidden;
+    padding-top: 30px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    padding-bottom: 30px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 300px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+  }
+    
+ 
+  /*text css all employees*/
+  
+
+  h2 {
+    
+   text-align: center;
+    width: 100%;
+  
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+                       0 2px 0 hsl(174,5%,75%),
+                       0 3px 0 hsl(174,5%,70%),
+                       0 4px 0 hsl(174,5%,66%),
+                       0 5px 0 hsl(174,5%,64%),
+                       0 6px 0 hsl(174,5%,62%),
+                       0 7px 0 hsl(174,5%,61%),
+                       0 8px 0 hsl(174,5%,60%),
+      
+                       0 0 5px rgba(0,0,0,.05),
+                      0 1px 3px rgba(0,0,0,.2),
+                      0 3px 5px rgba(0,0,0,.2),
+                     0 5px 10px rgba(0,0,0,.2),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.3);
+  }
+  
+
+  /*Insert form*/
+
+  input[type=text], select {
+   
+  
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline;
+ 
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #adccae;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c0ddc1;
+  }
+  label{
+      font-size: 25px;
+      margin-left: 25px;
+      width: 180px;
+      display: inline-block;
+      
+  }
+  label[for=status]{
+      width: 255px;
+
+  }
+input{
+    font-size: 15px;
+   
+    width: 270px;
+    height: 32px;
+    
+
+}
+#radio-inline{
+    width: 50px;
+}
+#bday{
+    height: 25px;
+}
+#bplace{
+    width: 600px;
+}
+#email{
+    width: 600px;
+}
+#sex{
+    width: 12px;
+    display: inline;
+    margin-top: 12px;
+   
+}
+#f{
+    font-size: 25px;
+}
+#status{
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
+   
+}
+  label.status{
+      width: 100px;
+      display: inline-block;
+  }
+  input[type="radio"] {
+   
+    font-size: 15px;
+  }
+ /*container*/
+ .container {   
+    display:inline-block; position:relative; z-index:1; width:95%; height:auto; margin:20px; padding:25px;
+    border-radius:20px;
+    background:linear-gradient(0.06deg, rgba(250, 250, 250, 1) 0%, 
+                                        rgba(246, 246, 246, 1) 29.62%, 
+                                        rgba(234, 234, 234, 1) 58.47%, 
+                                        rgba(215, 215, 215, 1) 86.92%, 
+                                        rgba(204, 204, 204, 1) 99.22%); 
+    box-shadow:-4px 8px 8px rgba(0,0,0,0.1), -8px 16px 16px rgba(0,0,0,0.1), -16px 32px 32px rgba(0,0,0,0.15), -32px 64px 64px rgba(0,0,0,0.25);  
+  }
+  .container:before {
+  
+    content:''; position:absolute; z-index:-1; top:0; left:0; right:0; bottom:0; margin:0;
+  }
+  .container:before {   
+   
+    margin:8px;
+    border-radius:0 96px;
+    background:linear-gradient(0.06deg, rgba(250, 250, 250, 1) 0%, 
+                                        rgba(246, 246, 246, 1) 29.62%, 
+                                        rgba(234, 234, 234, 1) 58.47%, 
+                                        rgba(215, 215, 215, 1) 86.92%, 
+                                        rgba(204, 204, 204, 1) 99.22%); 
+  }
+
+  /*table update*/
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    table-layout:fixed;
+    table-layout: inherit;
+table-layout: initial;
+table-layout: unset;
+   
+  }
+td{
+  font-size: 20px;
+}
+ 
+    .btn {
+      box-sizing: border-box;
+      appearance: none;
+      background-color: transparent;
+      border: 2px solid $red;
+      border-radius: 0.6em;
+      color: blue;
+      cursor: pointer;
+      display: flex;
+      align-self: center;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 1;
+      margin: 20px;
+      padding: 1.2em 2.8em;
+      text-decoration: none;
+      
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      
+    
+      &:hover,
+      &:focus {
+        color: rgb(155, 152, 152);
+        outline: 0;
+      }
+    }
+    .btn {
+      border-color: white;
+      color: rgb(26, 16, 16);
+      box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+      transition: all 150ms ease-in-out;
+      
+      &:hover {
+        box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+      }
+    }
+    
+
+  img{
+      margin-left: 80px;
+  }
+  .edit{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+  }

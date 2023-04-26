@@ -1,0 +1,136 @@
+body{
+	background-image: url(https://i.imgur.com/KV7rJR8.png); 
+	font-family: Arial, Verdana, Sans-serif;
+}
+h1{
+	text-align: center;
+	font-family: "Lucida Console", Monospace;
+	font-size: 50px;
+	color: rgb(17, 8, 8);
+	
+}
+
+nav, nav a{
+	text-align: center;
+	font-size: 1.03em;
+	color: black;
+	text-decoration: none;
+	margin: 35px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+a {text-decoration:none;}
+
+nav a:hover{color:#a11a1a;}
+
+#socialMedia{
+	width: 0;
+	height: auto;
+	background-color: transparent;
+	float:right;
+}
+#socialMedia ol li{list-style-type:none;}
+
+#insta{
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -1px -2px;
+	width: 48px;
+	height: 47px;
+}
+#tumblr{
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -62px 0;
+	width: 51px;
+	height: 50px;
+}
+#youtube{
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -124px 0;
+	width: 51px;
+	height: 50px;
+}
+
+#homePagebox{
+	margin-left:auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 700px;
+	background-color:white;
+	box-shadow:0 2px 2px 2px #888888;
+}
+#anthony{text-align: center;}
+#anthony img {
+ margin-top: 80px;
+}
+.wrapper{
+	margin: auto;
+	width: 80%;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center
+  }
+img{
+	margin-right: 30px;
+}
+  .image {
+	flex-basis: 50%;
+
+
+  }
+  .text {
+	font-size: 30px;
+	padding-left: 60px;
+	padding-right: 100px;
+  }
+.container{
+	height: auto;
+	background-color: rgb(170, 162, 162);
+	background-image: url("images/pro.jpg");
+	color: whitesmoke;
+}
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
+  .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(19, 11, 11);
+	color: white;
+	text-align: center;
+ }
+ .footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+  }
+ .about{
+	margin-right: 700px;
+	
+}
+
+
+
+  .follow {
+	font-size: 30px;
+	padding-left: 500px;
+	padding-right: 200px;
+	
+  }
+
+  
+  /*text*/
+  
